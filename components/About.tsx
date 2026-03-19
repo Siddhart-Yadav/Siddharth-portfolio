@@ -11,7 +11,7 @@ export default function About() {
           <div className="md:col-span-2 space-y-4">
             <p className="text-[#a0a0a0] text-lg leading-relaxed">
               I&apos;m a Software Engineer pursuing my M.S. in Computer Science
-              at Virginia Tech. With 4+ years of industry experience at
+              at Virginia Tech. With 5+ years of industry experience at
               companies like TATA AIG and Infosys, I&apos;ve built everything
               from serverless policy management portals on AWS to retry
               microservices that reduced failure rates by 70%.
@@ -33,7 +33,7 @@ export default function About() {
 
           <div className="space-y-4">
             <div className="p-6 rounded-xl border border-[#262626] bg-[#111111]">
-              <div className="text-3xl font-bold gradient-text mb-1">4+</div>
+              <div className="text-3xl font-bold gradient-text mb-1">5+</div>
               <div className="text-sm text-[#a0a0a0]">Years of Experience</div>
             </div>
             <div className="p-6 rounded-xl border border-[#262626] bg-[#111111]">
