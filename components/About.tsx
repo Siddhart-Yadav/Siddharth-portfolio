@@ -10,38 +10,40 @@ export default function About() {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="md:col-span-2 space-y-4">
             <p className="text-[#a0a0a0] text-lg leading-relaxed">
-              I&apos;m a Software Engineer who enjoys turning complex problems
-              into elegant, efficient solutions. My journey in tech has led me to
-              work across the full stack, with a growing focus on AI and
-              intelligent systems.
+              I&apos;m a Software Engineer pursuing my M.S. in Computer Science
+              at Virginia Tech. With 4+ years of industry experience at
+              companies like TATA AIG and Infosys, I&apos;ve built everything
+              from serverless policy management portals on AWS to retry
+              microservices that reduced failure rates by 70%.
             </p>
             <p className="text-[#a0a0a0] text-lg leading-relaxed">
-              I&apos;m passionate about building tools that make developers&apos;
-              lives easier — from AI-powered code review agents to scalable
-              backend systems. I believe in writing clean, maintainable code and
-              continuously learning new technologies.
+              Currently, I&apos;m a Graduate Research Assistant at the
+              Commonwealth Cyber Initiative, where I&apos;m developing LLM agent
+              systems with MCP server integration for automated threat detection
+              and security operations. I also interned at the American Chemical
+              Society, where I built a GitHub PR review tool that cut manual
+              review effort by 85%.
             </p>
             <p className="text-[#a0a0a0] text-lg leading-relaxed">
-              When I&apos;m not coding, you can find me exploring new AI research
-              papers or tinkering with side projects.
+              My sweet spot is at the intersection of AI and software
+              engineering — building multi-agent systems, fine-tuning LLMs for
+              code analysis, and designing cloud-native architectures on AWS.
             </p>
           </div>
 
           <div className="space-y-4">
             <div className="p-6 rounded-xl border border-[#262626] bg-[#111111]">
-              <div className="text-3xl font-bold gradient-text mb-1">SE</div>
-              <div className="text-sm text-[#a0a0a0]">Software Engineer</div>
+              <div className="text-3xl font-bold gradient-text mb-1">4+</div>
+              <div className="text-sm text-[#a0a0a0]">Years of Experience</div>
+            </div>
+            <div className="p-6 rounded-xl border border-[#262626] bg-[#111111]">
+              <div className="text-3xl font-bold gradient-text mb-1">MS</div>
+              <div className="text-sm text-[#a0a0a0]">CS @ Virginia Tech</div>
             </div>
             <div className="p-6 rounded-xl border border-[#262626] bg-[#111111]">
               <div className="text-3xl font-bold gradient-text mb-1">AI</div>
               <div className="text-sm text-[#a0a0a0]">
-                AI &amp; ML Enthusiast
-              </div>
-            </div>
-            <div className="p-6 rounded-xl border border-[#262626] bg-[#111111]">
-              <div className="text-3xl font-bold gradient-text mb-1">MS</div>
-              <div className="text-sm text-[#a0a0a0]">
-                M.S. Computer Science
+                LLMs &amp; Multi-Agent Systems
               </div>
             </div>
           </div>
