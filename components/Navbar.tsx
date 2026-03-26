@@ -44,8 +44,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="/resume.pdf"
-            target="_blank"
+            href="/resume"
             className="text-sm px-4 py-2 rounded-lg border border-[#3b82f6] text-[#3b82f6] hover:bg-[#3b82f6] hover:text-white transition-all duration-200"
           >
             Resume
@@ -86,6 +85,13 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
+          <a
+            href="/resume"
+            onClick={() => setMobileOpen(false)}
+            className="block py-3 text-[#3b82f6] hover:text-white transition-colors font-medium"
+          >
+            Resume
+          </a>
         </div>
       )}
     </nav>
