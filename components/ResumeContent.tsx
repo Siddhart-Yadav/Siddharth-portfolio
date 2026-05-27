@@ -27,13 +27,14 @@ const technicalSkills = [
 const experiences = [
   {
     company: "Commonwealth Cyber Initiative",
-    role: "Graduate Research Assistant",
+    role: "Researcher",
     period: "Jan 2025 \u2013 Present",
     location: "Arlington, VA",
     current: true,
     bullets: [
-      "Developing LLM agent system with MCP server integration for security operations that provides faster log analysis with real-time SIEM integration and automated threat detection.",
-      "Developed and evaluated LLM-augmented strategies for intelligent alert triage of potential phishing attacks, significantly reducing incident response times (MTTR) while maintaining high-fidelity threat detection.",
+      "Implemented an LLM agent system on LangGraph to triage security alerts and auto-generate detection rules, reducing mean time to detect by 50%.",
+      "Built reusable RAG ingestion and retrieval pipelines on LlamaIndex and ChromaDB supporting vector and knowledge-graph modes, citation-aware querying, and incremental hash-based re-indexing, exposed as composable tools any agent in the platform can call.",
+      "Designed a tool-first agent platform on LangGraph to enable composition of specialist AI assistants from a shared tool registry (RAG, SIEM, formal verification, web search, fine-tuning), with a provider-abstracted LLM layer and MCP server exposure for AI-IDE integration.",
     ],
   },
   {
@@ -43,8 +44,8 @@ const experiences = [
     location: "Washington, DC",
     current: false,
     bullets: [
-      "Engineered and launched a GitHub PR review tool, automating data collection and cutting manual review effort by 85%, which led to enhanced code quality insights.",
-      "Leveraged the pub-sub pattern using EventBridge, AWS SQS to decouple services and handle asynchronous events within the Integration and Orchestration platform.",
+      "Architected an agentic workflow on ACS Publications integration platform using LangGraph's ReAct loop orchestrating multi-step API integrations across AWS services and third-party SaaS vendors, reducing edge-case integration failure resolution time by 70%.",
+      "Engineered an agentic GitHub PR analytics system to eliminate manual identification of high-risk PRs by automating data collection, which led to 85% reduction in review effort.",
       "Set up a GitHub Actions CI/CD pipeline for ACS Pubs repos, increasing deployment frequency from weekly to over 10 deployments per day.",
     ],
   },
@@ -68,7 +69,7 @@ const experiences = [
     location: "Mysore, India",
     current: false,
     bullets: [
-      "Contributed towards efficient management of client mortgage and personal loan application platform utilizing Docker and Kubernetes, reducing infrastructure cost by 15%.",
+      "Built a data sync pipeline for a banking client to sync customer and loan records across RDS, S3, and downstream systems, implementing incremental batch processing with offset-based pagination and automated status tracking.",
       "Designed and implemented a retrying microservice for syncing cases to downstream leveraging Step Functions, and Redis, reducing failure rate by 70% and ensuring data consistency.",
       "Mentored new employees on clean code and best practices, conducted code reviews, and led daily stand ups.",
     ],
@@ -81,7 +82,7 @@ const projects = [
     tech: "Python, LangGraph, FastAPI, Next.js, Docker, Groq/Llama 3.3",
     bullets: [
       "Built a multi-agent code review system using LangGraph with 4 parallel specialist agents (security, performance, style, test coverage) and a multi-provider LLM abstraction supporting Groq, Gemini, OpenAI, and Anthropic.",
-      "Implemented smart diff chunking with priority-based file ranking, achieving 100% context precision, 86% F1 score, and 61% token savings.",
+      "Implemented smart diff chunking with priority-based file ranking, achieving 100% context precision, 86% F1 score, and 61% token savings, validated against real freeCodeCamp PRs.",
     ],
   },
   {
@@ -89,7 +90,7 @@ const projects = [
     tech: "PyTorch, Llama 3B, GPT-4",
     bullets: [
       "Built a dual-model system using fine-tuned Llama 3B Instruct for automated bug localization and repair, benchmarked against GPT-4 and Qwen Coder 32B.",
-      "Augmented the QuixBugs dataset with syntactic and logical single-line bugs, and demonstrated that targeted fine-tuning can outperform larger general-purpose LLMs.",
+      "Augmented the QuixBugs dataset with syntactic and logical single-line bugs, and demonstrated that targeted fine-tuning can outperform larger general-purpose LLMs, while improving accuracy.",
     ],
   },
 ];
@@ -98,7 +99,7 @@ const education = [
   {
     school: "Virginia Tech",
     degree: "M.S. in Computer Science",
-    period: "Aug 2024 \u2013 Present",
+    period: "Aug 2024 \u2013 May 2026",
     location: "Washington DC Baltimore Area, US",
   },
   {

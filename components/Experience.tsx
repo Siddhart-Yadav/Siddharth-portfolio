@@ -1,13 +1,13 @@
 const experiences = [
   {
     company: "Commonwealth Cyber Initiative",
-    role: "Graduate Research Assistant",
+    role: "Researcher",
     period: "Jan 2025 - Present",
     location: "Arlington, VA",
     current: true,
     description:
-      "Developing LLM agent system with MCP server integration for security operations that provides faster log analysis with real-time SIEM integration and automated threat detection. Developed and evaluated LLM-augmented strategies for intelligent alert triage of potential phishing attacks, significantly reducing incident response times (MTTR) while maintaining high-fidelity threat detection.",
-    tags: ["LLMs", "MCP", "Python", "SIEM", "Security"],
+      "Implemented an LLM agent system on LangGraph to triage security alerts and auto-generate detection rules, reducing mean time to detect by 50%. Built reusable RAG ingestion and retrieval pipelines on LlamaIndex and ChromaDB supporting vector and knowledge-graph modes, citation-aware querying, and incremental hash-based re-indexing. Designed a tool-first agent platform enabling composition of specialist AI assistants from a shared tool registry (RAG, SIEM, formal verification, web search, fine-tuning), with a provider-abstracted LLM layer and MCP server exposure for AI-IDE integration.",
+    tags: ["LangGraph", "LlamaIndex", "ChromaDB", "RAG", "MCP", "SIEM"],
   },
   {
     company: "American Chemical Society",
@@ -16,8 +16,8 @@ const experiences = [
     location: "Washington, DC",
     current: false,
     description:
-      "Engineered and launched a GitHub PR review tool, automating data collection and cutting manual review effort by 85%. Leveraged the pub-sub pattern using EventBridge, AWS SQS to decouple services and handle asynchronous events within the Integration and Orchestration platform. Set up a GitHub Actions CI/CD pipeline for ACS Pubs repos, increasing deployment frequency from weekly to over 10 deployments per day.",
-    tags: ["AWS SQS", "EventBridge", "GitHub Actions", "CI/CD", "Node.js"],
+      "Architected an agentic workflow on the ACS Publications integration platform using LangGraph's ReAct loop, orchestrating multi-step API integrations across AWS services and third-party SaaS vendors, reducing edge-case integration failure resolution time by 70%. Engineered an agentic GitHub PR analytics system to eliminate manual identification of high-risk PRs by automating data collection, cutting review effort by 85%. Set up a GitHub Actions CI/CD pipeline for ACS Pubs repos, increasing deployment frequency from weekly to over 10 deployments per day.",
+    tags: ["LangGraph", "ReAct", "AWS", "GitHub Actions", "CI/CD", "Python"],
   },
   {
     company: "TATA AIG General Insurance",
@@ -26,7 +26,7 @@ const experiences = [
     location: "Gurugram, India",
     current: false,
     description:
-      "Developed backend services of a highly scalable portal for creating and modifying policies using Lambda, RDS, NodeJS, S3, achieving a 90% improvement in TAT. Built a cross-organization report and access management platform using ReactJS, EC2 and ExpressJS, reducing report generation time by 80%. Implemented product APIs with authorization and rate limiting using AWS API Gateway, VPC, Redis.",
+      "Developed backend services of a highly scalable portal for creating and modifying policies using Lambda, RDS, NodeJS, S3, achieving a 90% improvement in TAT. Built a cross-organization report and access management platform using ReactJS, EC2 and ExpressJS, reducing report generation time by 80%. Integrated the legacy Genesis Configurator API into the backend system, and implemented product APIs with authorization and rate limiting using AWS API Gateway, VPC, Redis — enabling new vendor integrations and partnerships.",
     tags: ["AWS Lambda", "React", "Node.js", "Redis", "API Gateway"],
   },
   {
@@ -36,8 +36,8 @@ const experiences = [
     location: "Mysore, India",
     current: false,
     description:
-      "Contributed towards efficient management of client mortgage and personal loan application platform utilizing Docker and Kubernetes, reducing infrastructure cost by 15%. Designed and implemented a retrying microservice for syncing cases to downstream leveraging Step Functions and Redis, reducing failure rate by 70%. Mentored new employees on clean code and best practices.",
-    tags: ["Docker", "Kubernetes", "Step Functions", "Redis", "Microservices"],
+      "Built a data sync pipeline for a banking client to sync customer and loan records across RDS, S3, and downstream systems, implementing incremental batch processing with offset-based pagination and automated status tracking. Designed and implemented a retrying microservice for syncing cases to downstream leveraging Step Functions and Redis, reducing failure rate by 70%. Mentored new employees on clean code and best practices.",
+    tags: ["AWS RDS", "S3", "Step Functions", "Redis", "Microservices"],
   },
 ];
 

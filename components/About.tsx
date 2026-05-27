@@ -17,12 +17,12 @@ export default function About() {
               microservices that reduced failure rates by 70%.
             </p>
             <p className="text-[#a0a0a0] text-lg leading-relaxed">
-              Currently, I&apos;m a Graduate Research Assistant at the
-              Commonwealth Cyber Initiative, where I&apos;m developing LLM agent
-              systems with MCP server integration for automated threat detection
-              and security operations. I also interned at the American Chemical
-              Society, where I built a GitHub PR review tool that cut manual
-              review effort by 85%.
+              Currently, I&apos;m a Researcher at the Commonwealth Cyber
+              Initiative, where I build LLM agent systems on LangGraph for
+              security alert triage and detection-rule generation, along with
+              reusable RAG pipelines on LlamaIndex and ChromaDB. I also interned
+              at the American Chemical Society, where I shipped an agentic
+              GitHub PR analytics system that cut manual review effort by 85%.
             </p>
             <p className="text-[#a0a0a0] text-lg leading-relaxed">
               My sweet spot is at the intersection of AI and software
