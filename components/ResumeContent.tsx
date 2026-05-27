@@ -141,7 +141,7 @@ export default function ResumeContent() {
               href="/"
               className="text-sm text-[#a0a0a0] hover:text-white transition-colors duration-200"
             >
-              \u2190 Back to Portfolio
+              ← Back to Portfolio
             </a>
             <a
               href="/resume.pdf"
@@ -257,7 +257,7 @@ export default function ResumeContent() {
                     {exp.bullets.map((bullet, i) => (
                       <li
                         key={i}
-                        className="text-[#a0a0a0] text-sm leading-relaxed pl-4 relative before:content-['\u2022'] before:absolute before:left-0 before:text-[#3b82f6]"
+                        className="text-[#a0a0a0] text-sm leading-relaxed pl-4 relative before:content-['•'] before:absolute before:left-0 before:text-[#3b82f6]"
                       >
                         {bullet}
                       </li>
@@ -292,7 +292,7 @@ export default function ResumeContent() {
                     {project.bullets.map((bullet, i) => (
                       <li
                         key={i}
-                        className="text-[#a0a0a0] text-sm leading-relaxed pl-4 relative before:content-['\u2022'] before:absolute before:left-0 before:text-[#3b82f6]"
+                        className="text-[#a0a0a0] text-sm leading-relaxed pl-4 relative before:content-['•'] before:absolute before:left-0 before:text-[#3b82f6]"
                       >
                         {bullet}
                       </li>
